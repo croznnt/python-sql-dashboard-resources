@@ -12,6 +12,10 @@ Bạn sẽ dựng một dashboard doanh thu có bộ lọc khu vực, tổng doa
 | [04](04-external-databases.md) | SQLAlchemy, PostgreSQL và MySQL | Đọc dữ liệu từ server SQL |
 | [05](05-testing-deployment.md) | Kiểm tra, xử lý lỗi và triển khai | Kiểm tra kết quả và vận hành ứng dụng |
 
+## 🧑‍💻 Bài tập dành cho sinh viên
+
+[Bắt đầu bộ 5 bài thực hành](exercises/README.md). Các bài có CSV dùng chung, yêu cầu bắt buộc, kết quả đối chiếu, sản phẩm nộp và thang điểm tổng cộng 100 điểm. Lộ trình đi từ nạp dữ liệu tới SQL, dashboard, SQLAlchemy và kiểm thử bàn giao.
+
 ## 📁 Tệp thực hành
 
 Mã hoàn chỉnh của bài SQLite nằm ở [app.py](../examples/streamlit_sqlite/app.py). Các đoạn SQLAlchemy trong bài 04 là bài thực hành riêng, lưu vào `external_query.py` ở thư mục gốc sau khi cấu hình server. Chúng chưa thay thế ứng dụng SQLite tự động.

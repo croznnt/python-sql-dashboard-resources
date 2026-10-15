@@ -53,3 +53,7 @@ Ví dụ không cần file CSV, mật khẩu hoặc dịch vụ SQL. Mỗi lần
 | Streamlit | Tạo giao diện và phản hồi thao tác bộ lọc |
 
 Nếu thiếu thư viện, chạy lại lệnh cài đặt bằng chính Python trong `.venv`. Không cài gói tên `sqlite3` qua pip.
+
+## 🧑‍💻 Thực hành sau bài học
+
+[Làm bài tập 01](exercises/01-environment-data.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.

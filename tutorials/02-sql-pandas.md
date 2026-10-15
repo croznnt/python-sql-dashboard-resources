@@ -54,3 +54,7 @@ Tổng ba khu vực phải bằng tổng Tất cả. Đổi một giá trị d�
 
 1. [sqlite3 trong Python](https://docs.python.org/3/library/sqlite3.html).
 2. [pandas.read_sql_query](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html).
+
+## 🧑‍💻 Thực hành sau bài học
+
+[Làm bài tập 02](exercises/02-sql-analysis.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.

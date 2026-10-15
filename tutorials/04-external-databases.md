@@ -104,3 +104,7 @@ Tài khoản chạy dashboard chỉ cần SELECT trên các bảng được phé
 1. [SQLAlchemy Engine và URL](https://docs.sqlalchemy.org/en/20/core/engines.html).
 2. [SQLAlchemy kết nối và tham số](https://docs.sqlalchemy.org/en/20/tutorial/dbapi_transactions.html).
 3. [Streamlit kết nối dữ liệu](https://docs.streamlit.io/develop/concepts/connections).
+
+## 🧑‍💻 Thực hành sau bài học
+
+[Làm bài tập 04](exercises/04-visualization-sqlalchemy.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.

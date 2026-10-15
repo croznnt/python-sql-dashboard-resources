@@ -75,3 +75,7 @@ Với dữ liệu thật, cần xác định cách xử lý giá trị NULL, ki�
 1. [Seaborn lineplot](https://seaborn.pydata.org/generated/seaborn.lineplot.html).
 2. [Streamlit pyplot](https://docs.streamlit.io/develop/api-reference/charts/st.pyplot).
 3. [Matplotlib pyplot](https://matplotlib.org/stable/api/pyplot_summary.html).
+
+## 🧑‍💻 Thực hành sau bài học
+
+[Làm bài tập 03](exercises/03-dashboard-filters.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.

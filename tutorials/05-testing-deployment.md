@@ -69,3 +69,7 @@ Lưu thêm phiên bản Python và hệ điều hành cùng kết quả kiểm t
 1. [Triển khai Streamlit Community Cloud](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app).
 2. [Secrets trong Streamlit](https://docs.streamlit.io/develop/concepts/connections/secrets-management).
 3. [Lưu ý Matplotlib trong Streamlit](https://docs.streamlit.io/develop/api-reference/charts/st.pyplot).
+
+## 🧑‍💻 Thực hành sau bài học
+
+[Làm bài tập 05](exercises/05-final-project.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.
