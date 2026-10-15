@@ -1,0 +1,24 @@
+{
+  "total_repositories": 15,
+  "covered_repositories": 7,
+  "excluded_repositories": 8,
+  "groups": {
+    "Streamlit": [
+      "bamoah30/sql-query-dashboard",
+      "CLiang531/data-exploration-app",
+      "streamlit/streamlit"
+    ],
+    "Dash": [
+      "plotly/dash"
+    ],
+    "Panel": [
+      "holoviz/panel"
+    ],
+    "NiceGUI": [
+      "zauberzeug/nicegui"
+    ],
+    "Superset": [
+      "apache/superset"
+    ]
+  }
+}

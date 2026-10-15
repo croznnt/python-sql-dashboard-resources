@@ -22,6 +22,18 @@ Liên kết và metadata GitHub được kiểm tra ngày 15 tháng 10 năm 2026
 4. Giao diện nhiều điều khiển: NiceGUI và lớp SQL riêng.
 5. Nền tảng BI: khảo sát Superset, lưu ý frontend không thuần Python.
 
+## 📊 Thống kê theo framework
+
+![Biểu đồ số repo theo framework: Streamlit 3, Dash 1, Panel 1, NiceGUI 1, Superset 1](assets/framework-distribution.png)
+
+Biểu đồ thống kê các framework giao diện và nền tảng BI trong danh mục: Streamlit có 3 repo; Dash, Panel, NiceGUI và Superset có 1 repo mỗi nhóm. Có 7 trong tổng số 15 repo thuộc các nhóm này. Tám repo còn lại là thư viện biểu đồ, xử lý dữ liệu hoặc cơ sở dữ liệu nên không đưa vào biểu đồ framework.
+
+Đếm theo công cụ được ghi rõ trong trường `stack` của `catalog.json`; Superset được nhận diện bằng tên repo. Không tính các công cụ chỉ xuất hiện trong ghi chú gợi ý tích hợp. Một repo có thể thuộc nhiều nhóm nếu trường `stack` ghi nhiều framework. Đây là phân bố của danh mục hiện tại, không phải thống kê mức độ phổ biến trên toàn GitHub.
+
+[Xem dữ liệu và danh sách repo từng nhóm](assets/framework-counts.json) · [Tải biểu đồ SVG](assets/framework-distribution.svg)
+
+Sau khi cập nhật danh mục, chạy `python scripts/generate_framework_chart.py` để tạo lại biểu đồ, rồi cập nhật phần diễn giải số lượng phía trên nếu có thay đổi. Script cần Matplotlib trong `requirements.txt`.
+
 ## 📚 Danh mục
 
 | Repo | Vai trò | Công cụ | Ghi chú | Giấy phép GitHub |
