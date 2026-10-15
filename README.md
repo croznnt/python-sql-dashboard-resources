@@ -24,15 +24,20 @@ Liên kết và metadata GitHub được kiểm tra ngày 15 tháng 10 năm 2026
 
 ## 📊 Thống kê theo framework
 
-![Biểu đồ số repo theo framework: Streamlit 3, Dash 1, Panel 1, NiceGUI 1, Superset 1](assets/framework-distribution.png)
+### [▶ Mở biểu đồ tương tác](https://croznnt.github.io/python-sql-dashboard-resources/)
 
-Biểu đồ thống kê các framework giao diện và nền tảng BI trong danh mục: Streamlit có 3 repo; Dash, Panel, NiceGUI và Superset có 1 repo mỗi nhóm. Có 7 trong tổng số 15 repo thuộc các nhóm này. Tám repo còn lại là thư viện biểu đồ, xử lý dữ liệu hoặc cơ sở dữ liệu nên không đưa vào biểu đồ framework.
+Biểu đồ có hiệu ứng chuyển đổi, tooltip, sắp xếp theo tên hoặc số repo, chuyển giữa số lượng và tỷ lệ, bấm vào từng framework để lọc repo và tìm kiếm theo tên hoặc công cụ. Giao diện tự điều chỉnh trên điện thoại.
 
-Đếm theo công cụ được ghi rõ trong trường `stack` của `catalog.json`; Superset được nhận diện bằng tên repo. Không tính các công cụ chỉ xuất hiện trong ghi chú gợi ý tích hợp. Một repo có thể thuộc nhiều nhóm nếu trường `stack` ghi nhiều framework. Đây là phân bố của danh mục hiện tại, không phải thống kê mức độ phổ biến trên toàn GitHub.
+GitHub README không chạy JavaScript. Dùng liên kết phía trên để tương tác trên GitHub Pages. Biểu đồ thống kê danh mục hiện tại, không thể hiện mức độ phổ biến trên toàn GitHub. Có 7 trong 15 repo thuộc 5 nhóm framework; 8 repo thư viện hoặc cơ sở dữ liệu không nằm trong biểu đồ.
 
-[Xem dữ liệu và danh sách repo từng nhóm](assets/framework-counts.json) · [Tải biểu đồ SVG](assets/framework-distribution.svg)
+Chạy `python scripts/build_interactive_chart.py` sau khi sửa `catalog.json`, rồi commit và đẩy lên `main` để cập nhật dữ liệu biểu đồ. Trang hoạt động độc lập, không cần CDN hay thư viện JavaScript bên ngoài. Đây là dữ liệu tại lần xuất bản, không tự truy vấn số liệu GitHub theo thời gian thực.
 
-Sau khi cập nhật danh mục, chạy `python scripts/generate_framework_chart.py` để tạo lại biểu đồ, rồi cập nhật phần diễn giải số lượng phía trên nếu có thay đổi. Script cần Matplotlib trong `requirements.txt`.
+<details>
+<summary>Xem ảnh tĩnh dự phòng</summary>
+
+![Phân bố repo theo framework](assets/framework-distribution.png)
+
+</details>
 
 ## 📚 Danh mục
 
