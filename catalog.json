@@ -1,0 +1,167 @@
+[
+  {
+    "repository": "bamoah30/sql-query-dashboard",
+    "url": "https://github.com/bamoah30/sql-query-dashboard",
+    "category": "Ứng dụng mẫu",
+    "stack": "Streamlit, SQLite, Matplotlib",
+    "note": "Truy vấn SQL, xem bảng và vẽ biểu đồ.",
+    "license": "MIT",
+    "archived": false,
+    "pushed_at": "2025-11-30T05:20:44Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "CLiang531/data-exploration-app",
+    "url": "https://github.com/CLiang531/data-exploration-app",
+    "category": "Ứng dụng mẫu",
+    "stack": "Streamlit, PostgreSQL, SQLAlchemy",
+    "note": "Khám phá dữ liệu và lưu dữ liệu PostgreSQL. Matplotlib và Seaborn có trong phần notebook phân tích, cần kiểm tra riêng với phần giao diện.",
+    "license": "MIT",
+    "archived": false,
+    "pushed_at": "2025-09-09T23:36:13Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "streamlit/streamlit",
+    "url": "https://github.com/streamlit/streamlit",
+    "category": "Giao diện",
+    "stack": "Streamlit",
+    "note": "Ghép SQLAlchemy, pandas và st.pyplot để dựng dashboard.",
+    "license": "Apache-2.0",
+    "archived": false,
+    "pushed_at": "2026-10-15T12:06:32Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "plotly/dash",
+    "url": "https://github.com/plotly/dash",
+    "category": "Giao diện",
+    "stack": "Dash, Plotly",
+    "note": "Dashboard có callback; cần bổ sung lớp truy vấn SQL.",
+    "license": "MIT",
+    "archived": false,
+    "pushed_at": "2026-10-14T21:43:39Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "holoviz/panel",
+    "url": "https://github.com/holoviz/panel",
+    "category": "Giao diện",
+    "stack": "Panel",
+    "note": "Nhúng biểu đồ phân tích, kết hợp lớp SQL riêng.",
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "pushed_at": "2026-10-15T08:28:18Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "zauberzeug/nicegui",
+    "url": "https://github.com/zauberzeug/nicegui",
+    "category": "Giao diện",
+    "stack": "NiceGUI",
+    "note": "Giao diện web bằng Python, tham khảo ví dụ cơ sở dữ liệu của dự án.",
+    "license": "MIT",
+    "archived": false,
+    "pushed_at": "2026-10-15T08:41:02Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "matplotlib/matplotlib",
+    "url": "https://github.com/matplotlib/matplotlib",
+    "category": "Biểu đồ",
+    "stack": "Matplotlib",
+    "note": "Vẽ biểu đồ tùy biến. Cần ghép giao diện và lớp SQL.",
+    "license": null,
+    "archived": false,
+    "pushed_at": "2026-10-15T02:09:03Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "mwaskom/seaborn",
+    "url": "https://github.com/mwaskom/seaborn",
+    "category": "Biểu đồ",
+    "stack": "Seaborn, Matplotlib",
+    "note": "Biểu đồ thống kê từ DataFrame đã đọc qua SQL.",
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "pushed_at": "2026-10-08T01:29:20Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "plotly/plotly.py",
+    "url": "https://github.com/plotly/plotly.py",
+    "category": "Biểu đồ",
+    "stack": "Plotly",
+    "note": "Biểu đồ tương tác, ghép Dash hoặc Streamlit.",
+    "license": "MIT",
+    "archived": false,
+    "pushed_at": "2026-10-14T18:56:12Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "vega/altair",
+    "url": "https://github.com/vega/altair",
+    "category": "Biểu đồ",
+    "stack": "Altair",
+    "note": "Biểu đồ khai báo từ dữ liệu dạng bảng.",
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "pushed_at": "2026-10-14T09:09:41Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "bokeh/bokeh",
+    "url": "https://github.com/bokeh/bokeh",
+    "category": "Biểu đồ",
+    "stack": "Bokeh",
+    "note": "Biểu đồ tương tác và ứng dụng server.",
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "pushed_at": "2026-10-14T22:59:57Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "sqlalchemy/sqlalchemy",
+    "url": "https://github.com/sqlalchemy/sqlalchemy",
+    "category": "Kết nối SQL",
+    "stack": "SQLAlchemy",
+    "note": "Engine, SQL expression và ORM.",
+    "license": "MIT",
+    "archived": false,
+    "pushed_at": "2026-10-14T13:32:32Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "pandas-dev/pandas",
+    "url": "https://github.com/pandas-dev/pandas",
+    "category": "Xử lý dữ liệu",
+    "stack": "pandas",
+    "note": "Đọc SQL thành DataFrame và tổng hợp dữ liệu.",
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "pushed_at": "2026-10-15T05:03:29Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "duckdb/duckdb",
+    "url": "https://github.com/duckdb/duckdb",
+    "category": "Cơ sở dữ liệu",
+    "stack": "DuckDB",
+    "note": "SQL phân tích nhúng, tích hợp Python.",
+    "license": "MIT",
+    "archived": false,
+    "pushed_at": "2026-10-15T12:13:29Z",
+    "checked_on": "2026-10-15"
+  },
+  {
+    "repository": "apache/superset",
+    "url": "https://github.com/apache/superset",
+    "category": "Ứng dụng BI",
+    "stack": "Python backend, SQL, React",
+    "note": "Nền tảng BI hoàn chỉnh, frontend không thuần Python.",
+    "license": "Apache-2.0",
+    "archived": false,
+    "pushed_at": "2026-10-15T11:07:05Z",
+    "checked_on": "2026-10-15"
+  }
+]
