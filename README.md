@@ -1,14 +1,20 @@
-# Python SQL Dashboard Resources
+# 📊 Python SQL Dashboard Resources
 
 Tổng hợp repo GitHub phục vụ xây dựng giao diện phân tích dữ liệu bằng Python, kết nối SQL và vẽ biểu đồ bằng Seaborn, Matplotlib cùng các công cụ liên quan.
 
-## Phạm vi
+<p>🐍 Python &nbsp; · &nbsp; 🗄️ SQL &nbsp; · &nbsp; 📈 Seaborn & Matplotlib &nbsp; · &nbsp; 🖥️ Dashboard</p>
+
+## 🎓 Tutorial chi tiết
+
+[Đọc tutorial trên nhánh codex/tutorial](https://github.com/croznnt/python-sql-dashboard-resources/blob/codex/tutorial/tutorials/README.md), gồm cài đặt, SQL, pandas, biểu đồ, giao diện, PostgreSQL, MySQL, kiểm tra và triển khai.
+
+## 🧭 Phạm vi
 
 Danh mục phân biệt ứng dụng mẫu, framework giao diện, thư viện biểu đồ và lớp dữ liệu. Không phải mọi repo đều tích hợp sẵn SQL, Seaborn và giao diện. Ghi chú cho biết thành phần cần ghép thêm.
 
 Liên kết và metadata GitHub được kiểm tra ngày 15 tháng 10 năm 2026. Chưa chạy thử từng dự án bên thứ ba. Giấy phép trong bảng lấy từ metadata GitHub; giá trị chưa xác định không đồng nghĩa với không có giấy phép.
 
-## Chọn công cụ
+## 🧰 Chọn công cụ
 
 1. Học luồng SQL tới biểu đồ: bắt đầu với sql-query-dashboard và ví dụ SQLite trong repo này.
 2. Dashboard nhanh: Streamlit, pandas, SQLAlchemy và Seaborn hoặc Matplotlib.
@@ -16,7 +22,7 @@ Liên kết và metadata GitHub được kiểm tra ngày 15 tháng 10 năm 2026
 4. Giao diện nhiều điều khiển: NiceGUI và lớp SQL riêng.
 5. Nền tảng BI: khảo sát Superset, lưu ý frontend không thuần Python.
 
-## Danh mục
+## 📚 Danh mục
 
 | Repo | Vai trò | Công cụ | Ghi chú | Giấy phép GitHub |
 | :--- | :--- | :--- | :--- | :--- |
@@ -36,13 +42,13 @@ Liên kết và metadata GitHub được kiểm tra ngày 15 tháng 10 năm 2026
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | Cơ sở dữ liệu | DuckDB | SQL phân tích nhúng, tích hợp Python. | MIT |
 | [apache/superset](https://github.com/apache/superset) | Ứng dụng BI | Python backend, SQL, React | Nền tảng BI hoàn chỉnh, frontend không thuần Python. | Apache-2.0 |
 
-## Luồng dữ liệu
+## 🔄 Luồng dữ liệu
 
 SQL database → sqlite3 hoặc SQLAlchemy → pandas DataFrame → Seaborn hoặc Matplotlib → giao diện Python.
 
 Seaborn và Matplotlib tạo biểu đồ. Streamlit, Panel hoặc NiceGUI cung cấp bộ lọc, bố cục và tương tác ứng dụng. Biểu đồ Seaborn thường hiển thị dưới dạng hình; Plotly và Bokeh hỗ trợ tương tác trực tiếp trên biểu đồ.
 
-## Chạy ví dụ
+## 🚀 Chạy ví dụ
 
 Yêu cầu Python 3.10 trở lên. Dữ liệu doanh thu giả lập được tạo trong SQLite trong bộ nhớ, không cần tài khoản cơ sở dữ liệu.
 
@@ -56,11 +62,11 @@ Trên macOS hoặc Linux, dùng `.venv/bin/python` thay cho `.venv\Scripts\pytho
 
 Ví dụ có bộ lọc khu vực, bảng dữ liệu và biểu đồ Seaborn trên Matplotlib. Mã ví dụ là mã mới của repo này. Các khoảng phiên bản trong requirements là ràng buộc cài đặt, chưa phải lockfile đã kiểm thử trên mọi hệ điều hành.
 
-## Mở rộng SQL
+## 🗄️ Mở rộng SQL
 
 Với PostgreSQL hoặc MySQL, dùng SQLAlchemy và driver tương ứng. Đặt thông tin kết nối trong biến môi trường hoặc secrets. Dùng tham số SQL cho giá trị bộ lọc, giới hạn lượng dữ liệu truy vấn và cấp quyền đọc khi dashboard chỉ phục vụ phân tích.
 
-## Dữ liệu và đóng góp
+## 🤝 Dữ liệu và đóng góp
 
 `catalog.json` chứa danh mục cùng thời gian push và trạng thái archived tại lần kiểm tra. Thời gian push không tự chứng minh chất lượng dự án.
 
