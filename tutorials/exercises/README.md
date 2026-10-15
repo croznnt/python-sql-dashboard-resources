@@ -1,4 +1,4 @@
-# 🧑‍💻 Bộ 5 bài thực hành cho sinh viên
+# 🧑‍💻 Bộ 5 bài thực hành
 
 [Về tutorial](../README.md)
 

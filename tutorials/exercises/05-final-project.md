@@ -4,7 +4,7 @@
 
 ## 🎯 Đề bài
 
-Hoàn thiện dashboard để một sinh viên khác có thể clone, cài và chạy mà không cần người viết hỗ trợ trực tiếp. Ghi lại kết quả kiểm thử và các giới hạn còn lại để tự đối chiếu.
+Hoàn thiện dashboard để người khác có thể clone, cài và chạy mà không cần người viết hỗ trợ trực tiếp. Ghi lại kết quả kiểm thử và các giới hạn còn lại để tự đối chiếu.
 
 Đọc trước [tutorial 05](../05-testing-deployment.md). Thời gian dự kiến: 90 đến 120 phút.
 
