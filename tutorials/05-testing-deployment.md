@@ -72,4 +72,4 @@ Lưu thêm phiên bản Python và hệ điều hành cùng kết quả kiểm t
 
 ## 🧑‍💻 Thực hành sau bài học
 
-[Làm bài tập 05](exercises/05-final-project.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.
+[Làm bài tập 05](exercises/05-final-project.md), xem yêu cầu, kết quả cần đạt và hướng dẫn thực hành.

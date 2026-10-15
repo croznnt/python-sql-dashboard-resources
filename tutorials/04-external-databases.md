@@ -107,4 +107,4 @@ Tài khoản chạy dashboard chỉ cần SELECT trên các bảng được phé
 
 ## 🧑‍💻 Thực hành sau bài học
 
-[Làm bài tập 04](exercises/04-visualization-sqlalchemy.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.
+[Làm bài tập 04](exercises/04-visualization-sqlalchemy.md), xem yêu cầu, kết quả cần đạt và hướng dẫn thực hành.

@@ -18,7 +18,7 @@ Xây dựng `app.py` cho phép người dùng khám phá doanh thu mà không vi
 6. Thêm tải CSV chứa đúng các dòng đang lọc. Có nhãn đơn vị doanh thu minh họa và mô tả phạm vi dữ liệu.
 7. Khi không có dữ liệu, hiển thị thông báo, các chỉ số bằng 0 và không vẽ biểu đồ. Không để ứng dụng phát sinh exception.
 
-## ✅ Kịch bản nghiệm thu
+## ✅ Kịch bản tự kiểm tra
 
 | Thao tác | Kết quả |
 | :--- | :--- |
@@ -34,15 +34,6 @@ Xây dựng `app.py` cho phép người dùng khám phá doanh thu mà không vi
 
 Dùng cùng một DataFrame đã lọc làm nguồn cho các thành phần. SQL cần lọc trước khi đọc dữ liệu. Dùng `st.metric`, `st.selectbox`, `st.pyplot`, `st.dataframe`, `st.download_button`. Với một điểm dữ liệu, marker giúp người dùng vẫn nhìn thấy kết quả.
 
-## 📤 Sản phẩm nộp
+## 📁 Tệp thực hành
 
-`app.py`, lệnh chạy và ảnh hoặc video ngắn của năm kịch bản. Ghi lại quy tắc đồng bộ bộ lọc trong README bài nộp.
-
-## 📝 Thang điểm
-
-| Tiêu chí | Điểm |
-| :--- | ---: |
-| Bộ lọc SQL và kiểm tra khoảng tháng | 6 |
-| Chỉ số, bảng và biểu đồ đồng bộ | 6 |
-| CSV đúng dữ liệu, xử lý rỗng | 4 |
-| Nhãn, bố cục và bằng chứng nghiệm thu | 4 |
+`app.py`, lệnh chạy và ảnh hoặc video ngắn của năm kịch bản. Ghi lại quy tắc đồng bộ bộ lọc trong README bài thực hành.

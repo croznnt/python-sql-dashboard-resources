@@ -10,7 +10,7 @@ Nâng cấp dashboard bằng biểu đồ so sánh và một lớp dữ liệu c
 
 ## 📋 Yêu cầu bắt buộc
 
-1. Cài `SQLAlchemy>=2,<3` trong môi trường ảo và ghi phụ thuộc vào requirements của bài nộp.
+1. Cài `SQLAlchemy>=2,<3` trong môi trường ảo và ghi phụ thuộc vào requirements của bài thực hành.
 2. Tạo `database.py` có hàm đọc chi tiết và hàm tổng hợp theo khu vực, nhận khu vực cùng tháng bắt đầu, tháng kết thúc. Không import Streamlit trong module dữ liệu.
 3. Dùng `create_engine`, `text` và tham số có tên như `:region`. Đọc URL kết nối từ biến môi trường hoặc cấu hình ngoài mã nguồn. Với SQLite, xác định đường dẫn file rõ ràng, tránh vô tình tạo database rỗng ở thư mục làm việc khác.
 4. Thay lớp sqlite3 trong dashboard bằng module mới, giữ nguyên kết quả bộ lọc bài 03. Đóng kết nối bằng context manager.
@@ -25,21 +25,12 @@ Gọi trực tiếp hàm dữ liệu trong Python mà không chạy Streamlit v�
 
 ## 🌱 Mở rộng tùy chọn
 
-Nạp cùng CSV vào database PostgreSQL hoặc MySQL riêng. Cài driver phù hợp, đổi URL cấu hình và chứng minh kết quả không đổi. Không dùng bộ dữ liệu 3 dòng trong ví dụ tutorial để đối chiếu các tổng của bài tập này. Không nộp mật khẩu hoặc URL chứa mật khẩu thật.
+Nạp cùng CSV vào database PostgreSQL hoặc MySQL riêng. Cài driver phù hợp, đổi URL cấu hình và chứng minh kết quả không đổi. Không dùng bộ dữ liệu 3 dòng trong ví dụ tutorial để đối chiếu các tổng của bài tập này. Không lưu mật khẩu hoặc URL chứa mật khẩu thật.
 
 ## 💡 Gợi ý
 
 Tách vòng đời engine khỏi từng truy vấn. Không chia sẻ một kết nối đang sử dụng giữa các phiên. Với bài thực hành cục bộ, ưu tiên cấu trúc rõ ràng và kết quả đúng trước khi thêm cache. Nếu cache, phải giải thích thời điểm dữ liệu được làm mới.
 
-## 📤 Sản phẩm nộp
+## 📁 Tệp thực hành
 
-`database.py`, app đã cập nhật, requirements bài nộp, cấu hình mẫu không có bí mật và bảng đối chiếu trước, sau khi chuyển SQLAlchemy.
-
-## 📝 Thang điểm
-
-| Tiêu chí | Điểm |
-| :--- | ---: |
-| Module dữ liệu tách biệt và cấu hình kết nối | 6 |
-| SQLAlchemy, tham số và quản lý kết nối | 6 |
-| Biểu đồ cột đúng, đồng bộ bộ lọc | 4 |
-| Đối chiếu kết quả và nhận xét | 4 |
+`database.py`, app đã cập nhật, requirements bài thực hành, cấu hình mẫu không có bí mật và bảng đối chiếu trước, sau khi chuyển SQLAlchemy.

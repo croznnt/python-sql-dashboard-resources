@@ -14,7 +14,7 @@ Bạn sẽ dựng một dashboard doanh thu có bộ lọc khu vực, tổng doa
 
 ## 🧑‍💻 Bài tập dành cho sinh viên
 
-[Bắt đầu bộ 5 bài thực hành](exercises/README.md). Các bài có CSV dùng chung, yêu cầu bắt buộc, kết quả đối chiếu, sản phẩm nộp và thang điểm tổng cộng 100 điểm. Lộ trình đi từ nạp dữ liệu tới SQL, dashboard, SQLAlchemy và kiểm thử bàn giao.
+[Bắt đầu bộ 5 bài thực hành](exercises/README.md). Các bài có CSV dùng chung, đề bài, hướng dẫn, dữ liệu và kết quả đối chiếu để tự kiểm tra. Lộ trình đi từ nạp dữ liệu tới SQL, dashboard, SQLAlchemy và kiểm thử bàn giao.
 
 ## 📁 Tệp thực hành
 

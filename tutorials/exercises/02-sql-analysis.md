@@ -33,15 +33,6 @@ Tổng tỷ trọng trước làm tròn phải bằng 100% trong sai số số t
 
 Xem `GROUP BY`, `ORDER BY`, `SUM`, `COUNT` và `COALESCE`. Với SQLite, placeholder giá trị là `?`. Các chuỗi tháng dạng `YYYY-MM` có thứ tự thời gian phù hợp để lọc trong bộ dữ liệu này.
 
-## 📤 Sản phẩm nộp
+## 📁 Tệp thực hành
 
 `queries.sql`, `analysis.py`, CSV tổng hợp và kết quả chạy các trường hợp đối chiếu. Chỉ rõ truy vấn nào chạy trên database và phần nào do Python xử lý.
-
-## 📝 Thang điểm
-
-| Tiêu chí | Điểm |
-| :--- | ---: |
-| Tổng hợp SQL đúng và đúng thứ tự | 6 |
-| Bộ lọc có tham số và đúng hai đầu mút | 6 |
-| Tỷ trọng, dữ liệu rỗng và xuất CSV | 4 |
-| Bằng chứng đối chiếu và giải thích | 4 |

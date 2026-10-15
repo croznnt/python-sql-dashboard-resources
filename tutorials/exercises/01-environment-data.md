@@ -33,15 +33,6 @@ Chạy script hai lần và lưu bằng chứng số dòng không tăng. Trên b
 
 Dùng `pathlib.Path`, `sqlite3`, `csv` hoặc pandas. Tách bước kiểm tra đầu vào khỏi bước ghi database. Nếu cần nhiều lệnh ghi, thực hiện trong transaction để tránh dữ liệu nạp dở khi có lỗi.
 
-## 📤 Sản phẩm nộp
+## 📁 Tệp thực hành
 
 `load_data.py`, hướng dẫn chạy từ thư mục gốc và kết quả của hai lần chạy liên tiếp. Giải thích ngắn khóa duy nhất giúp tránh lỗi gì.
-
-## 📝 Thang điểm
-
-| Tiêu chí | Điểm |
-| :--- | ---: |
-| Môi trường và hướng dẫn chạy tái tạo được | 4 |
-| Kiểm tra CSV và thiết kế ràng buộc | 6 |
-| Nạp bằng tham số, chạy lại không trùng | 6 |
-| Kết quả đối chiếu và giải thích | 4 |

@@ -78,4 +78,4 @@ Với dữ liệu thật, cần xác định cách xử lý giá trị NULL, ki�
 
 ## 🧑‍💻 Thực hành sau bài học
 
-[Làm bài tập 03](exercises/03-dashboard-filters.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.
+[Làm bài tập 03](exercises/03-dashboard-filters.md), xem yêu cầu, kết quả cần đạt và hướng dẫn thực hành.

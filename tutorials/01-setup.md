@@ -56,4 +56,4 @@ Nếu thiếu thư viện, chạy lại lệnh cài đặt bằng chính Python 
 
 ## 🧑‍💻 Thực hành sau bài học
 
-[Làm bài tập 01](exercises/01-environment-data.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.
+[Làm bài tập 01](exercises/01-environment-data.md), xem yêu cầu, kết quả cần đạt và hướng dẫn thực hành.

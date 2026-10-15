@@ -57,4 +57,4 @@ Tổng ba khu vực phải bằng tổng Tất cả. Đổi một giá trị d�
 
 ## 🧑‍💻 Thực hành sau bài học
 
-[Làm bài tập 02](exercises/02-sql-analysis.md), xem yêu cầu, kết quả cần đạt và tiêu chí chấm.
+[Làm bài tập 02](exercises/02-sql-analysis.md), xem yêu cầu, kết quả cần đạt và hướng dẫn thực hành.
