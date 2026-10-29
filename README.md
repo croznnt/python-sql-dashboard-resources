@@ -8,6 +8,12 @@ Tổng hợp repo GitHub phục vụ xây dựng giao diện phân tích dữ li
 
 [Đọc tutorial trên nhánh codex/tutorial](https://github.com/croznnt/python-sql-dashboard-resources/blob/codex/tutorial/tutorials/README.md), gồm cài đặt, SQL, pandas, biểu đồ, giao diện, PostgreSQL, MySQL, kiểm tra và triển khai.
 
+## 🧮 Thực hành NumPy với dữ liệu kho
+
+[Đọc hướng dẫn luồng NumPy](tutorials/numpy-warehouse/README.md) hoặc [tải bộ slide 15 trang](tutorials/numpy-warehouse/Luong_ThucHanh_NumPy.pptx). Bộ thực hành có code Python, database SQLite mô phỏng và bốn CSV mẫu để đối chiếu. Nội dung đi từ SQL đến mảng, broadcasting, chuẩn hóa và so sánh thứ tự ưu tiên theo trọng số.
+
+Chạy tại máy cá nhân theo hướng dẫn trong thư mục `tutorials/numpy-warehouse`. Database được mở chỉ đọc, kết quả lưu riêng trong `ket_qua_numpy`.
+
 ## 🧭 Phạm vi
 
 Danh mục phân biệt ứng dụng mẫu, framework giao diện, thư viện biểu đồ và lớp dữ liệu. Không phải mọi repo đều tích hợp sẵn SQL, Seaborn và giao diện. Ghi chú cho biết thành phần cần ghép thêm.
