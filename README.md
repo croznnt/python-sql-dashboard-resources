@@ -10,7 +10,7 @@ Tổng hợp repo GitHub phục vụ xây dựng giao diện phân tích dữ li
 
 ## 🧮 Thực hành NumPy với dữ liệu kho
 
-[Đọc hướng dẫn luồng NumPy](tutorials/numpy-warehouse/README.md) hoặc [tải bộ slide 15 trang](tutorials/numpy-warehouse/Luong_ThucHanh_NumPy.pptx). Bộ thực hành có code Python, database SQLite mô phỏng và bốn CSV mẫu để đối chiếu. Nội dung đi từ SQL đến mảng, broadcasting, chuẩn hóa và so sánh thứ tự ưu tiên theo trọng số.
+[Bắt đầu bộ thực hành NumPy](tutorials/numpy-warehouse/README.md), gồm ba bài có mục tiêu, yêu cầu, giới thiệu khái niệm, giải thích code và hướng dẫn chạy. Bộ thực hành đi kèm code Python, database SQLite mô phỏng và bốn CSV mẫu để đối chiếu. Nội dung đi từ SQL đến mảng, broadcasting, chuẩn hóa và so sánh thứ tự ưu tiên theo trọng số.
 
 Chạy tại máy cá nhân theo hướng dẫn trong thư mục `tutorials/numpy-warehouse`. Database được mở chỉ đọc, kết quả lưu riêng trong `ket_qua_numpy`.
 
