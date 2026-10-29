@@ -14,6 +14,10 @@ Tổng hợp repo GitHub phục vụ xây dựng giao diện phân tích dữ li
 
 Chạy tại máy cá nhân theo hướng dẫn trong thư mục `tutorials/numpy-warehouse`. Database được mở chỉ đọc, kết quả lưu riêng trong `ket_qua_numpy`.
 
+## 🐼 Thực hành pandas với dữ liệu kho
+
+[Bắt đầu bộ thực hành pandas](tutorials/pandas-warehouse/README.md), gồm ba bài về DataFrame, lọc, ghép bảng, tổng hợp, thời gian và pivot. Mỗi bài có giới thiệu, yêu cầu, giải thích code và lệnh chạy riêng. Đi kèm database mô phỏng, mã Python hoàn chỉnh và bảy CSV mẫu để đối chiếu.
+
 ## 🧭 Phạm vi
 
 Danh mục phân biệt ứng dụng mẫu, framework giao diện, thư viện biểu đồ và lớp dữ liệu. Không phải mọi repo đều tích hợp sẵn SQL, Seaborn và giao diện. Ghi chú cho biết thành phần cần ghép thêm.
