@@ -4,9 +4,33 @@ Tổng hợp repo GitHub phục vụ xây dựng giao diện phân tích dữ li
 
 <p>🐍 Python &nbsp; · &nbsp; 🗄️ SQL &nbsp; · &nbsp; 📈 Seaborn & Matplotlib &nbsp; · &nbsp; 🖥️ Dashboard</p>
 
-## 🎓 Tutorial chi tiết
+## 🎓 Hướng dẫn và bộ thực hành
 
-[Đọc tutorial trên nhánh codex/tutorial](https://github.com/croznnt/python-sql-dashboard-resources/blob/codex/tutorial/tutorials/README.md), gồm cài đặt, SQL, pandas, biểu đồ, giao diện, PostgreSQL, MySQL, kiểm tra và triển khai.
+Các bộ thực hành dùng dữ liệu mô phỏng, có mục tiêu, yêu cầu, giải thích code và hướng dẫn chạy trên máy cá nhân. Chọn nội dung theo kiến thức muốn luyện:
+
+| Bộ thực hành | Nội dung | Tệp đi kèm | Bắt đầu |
+| :--- | :--- | :--- | :--- |
+| 🧮 NumPy với dữ liệu kho | Mảng, lọc Boolean, broadcasting, chuẩn hóa và trọng số | 3 bài, code Python, SQLite và 4 CSV mẫu | [Hướng dẫn NumPy](https://github.com/croznnt/python-sql-dashboard-resources/tree/codex/numpy-warehouse-practice/tutorials/numpy-warehouse) |
+| 🐼 pandas với dữ liệu kho | DataFrame, loc, merge, groupby, thời gian và pivot | 3 bài chạy riêng, code Python, SQLite và 7 CSV mẫu | [Hướng dẫn pandas](https://github.com/croznnt/python-sql-dashboard-resources/tree/codex/pandas-warehouse-practice/tutorials/pandas-warehouse) |
+| 🖥️ SQL và dashboard | Cài môi trường, SQL, biểu đồ, Streamlit, PostgreSQL và MySQL | Tutorial chi tiết và 5 bài thực hành | [Hướng dẫn dashboard](https://github.com/croznnt/python-sql-dashboard-resources/blob/codex/tutorial/tutorials/README.md) |
+
+### 🧭 Lộ trình gợi ý
+
+1. **NumPy:** hiểu cấu trúc mảng, cách tính theo từng phần tử và theo trục, rồi so sánh các kịch bản.
+2. **pandas:** xử lý bảng có nhãn, ghép đúng khóa, tổng hợp và tổ chức dữ liệu thời gian.
+3. **Dashboard:** dùng kết quả SQL và pandas để dựng bảng, biểu đồ và giao diện có bộ lọc.
+
+### 📁 Chọn đúng nhánh và chạy bài
+
+| Nội dung | Nhánh GitHub | Thư mục thực hành |
+| :--- | :--- | :--- |
+| NumPy | [codex/numpy-warehouse-practice](https://github.com/croznnt/python-sql-dashboard-resources/tree/codex/numpy-warehouse-practice) | `tutorials/numpy-warehouse` |
+| pandas | [codex/pandas-warehouse-practice](https://github.com/croznnt/python-sql-dashboard-resources/tree/codex/pandas-warehouse-practice) | `tutorials/pandas-warehouse` |
+| Dashboard | [codex/tutorial](https://github.com/croznnt/python-sql-dashboard-resources/tree/codex/tutorial) | `tutorials` |
+
+Mở hướng dẫn của bộ đã chọn, tải hoặc clone đúng nhánh, rồi chạy lệnh trong thư mục tương ứng. Hướng dẫn có cách tạo môi trường ảo, cài thư viện và xử lý lỗi thường gặp. Các bài thực hiện tại máy cá nhân, không yêu cầu đẩy kết quả lên GitHub.
+
+Hai bộ NumPy và pandas dùng cùng `Warehouse_Automation.db`. Chương trình mở database chỉ đọc, lưu CSV vào thư mục kết quả riêng và có dữ liệu mẫu để đối chiếu. Các mốc số, kịch bản và trọng số chỉ phục vụ luyện tập trên bộ dữ liệu mô phỏng.
 
 ## 🧭 Phạm vi
 
